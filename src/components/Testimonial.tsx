@@ -1,3 +1,5 @@
+// app/components/Testimonial.jsx
+'use client'
 import React from "react";
 import Image from "next/image";
 
@@ -41,6 +43,8 @@ const Testimonial = () => {
               <Image
                 src={testimonial.image}
                 alt={testimonial.name}
+                width={64}
+                height={64}
                 className="w-16 h-16 mx-auto rounded-full mb-4 border-2 border-gray-300"
               />
               <p className="text-gray-600 italic">
